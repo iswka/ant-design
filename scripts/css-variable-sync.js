@@ -41,7 +41,7 @@ replaceVariableContent(
   'html-variables',
   `
 html {
-  @base-primary: @blue-6;
+  @base-primary: @green-6;
 
   // ========= Primary Color =========
   --@{ant-prefix}-primary-color: @base-primary;
