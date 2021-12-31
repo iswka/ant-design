@@ -24,10 +24,10 @@ npm-debug.log
 nohup.out
 _site
 _data
-dist
+# dist
 report.html
-/lib
-/es
+# /lib
+# /es
 elasticsearch-*
 config/base.yaml
 /.vscode/
