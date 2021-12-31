@@ -13,7 +13,7 @@ export interface CompositionImage<P> extends React.FC<P> {
 
 const Image: CompositionImage<ImageProps> = ({
   prefixCls: customizePrefixCls,
-  preview,
+  preview = false,
   ...otherProps
 }) => {
   const { getPrefixCls } = useContext(ConfigContext);
