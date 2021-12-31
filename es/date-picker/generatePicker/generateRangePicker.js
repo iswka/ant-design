@@ -25,7 +25,7 @@ import ClockCircleOutlined from "@ant-design/icons/es/icons/ClockCircleOutlined"
 import CloseCircleFilled from "@ant-design/icons/es/icons/CloseCircleFilled";
 import SwapRightOutlined from "@ant-design/icons/es/icons/SwapRightOutlined";
 import { RangePicker as RCRangePicker } from 'rc-picker';
-import enUS from '../locale/en_US';
+import zhCN from '../locale/zh_CN';
 import { ConfigContext } from '../../config-provider';
 import SizeContext from '../../config-provider/SizeContext';
 import LocaleReceiver from '../../locale-provider/LocaleReceiver';
@@ -137,7 +137,7 @@ export default function generateRangePicker(generateConfig) {
       value: function render() {
         return /*#__PURE__*/React.createElement(LocaleReceiver, {
           componentName: "DatePicker",
-          defaultLocale: enUS
+          defaultLocale: zhCN
         }, this.renderPicker);
       }
     }]);

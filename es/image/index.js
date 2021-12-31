@@ -25,7 +25,8 @@ import { getTransitionName } from '../_util/motion';
 
 var Image = function Image(_a) {
   var customizePrefixCls = _a.prefixCls,
-      preview = _a.preview,
+      _a$preview = _a.preview,
+      preview = _a$preview === void 0 ? false : _a$preview,
       otherProps = __rest(_a, ["prefixCls", "preview"]);
 
   var _useContext = useContext(ConfigContext),
