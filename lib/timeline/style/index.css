@@ -7,7 +7,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   font-feature-settings: 'tnum';
   margin: 0;
   padding: 0;
@@ -74,7 +74,7 @@
 }
 .ant-timeline-item-content {
   position: relative;
-  top: -7.001px;
+  top: -5.0004px;
   margin: 0 0 0 26px;
   word-break: break-word;
 }
@@ -146,7 +146,7 @@
 }
 .ant-timeline.ant-timeline-label .ant-timeline-item-label {
   position: absolute;
-  top: -7.001px;
+  top: -5.0004px;
   width: calc(50% - 12px);
   text-align: right;
 }

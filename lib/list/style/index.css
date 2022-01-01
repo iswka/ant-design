@@ -9,7 +9,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   position: relative;
@@ -72,7 +72,7 @@
   margin-bottom: 4px;
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
 }
 .ant-list-item-meta-title > a {
   color: rgba(0, 0, 0, 0.85);
@@ -84,7 +84,7 @@
 .ant-list-item-meta-description {
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
 }
 .ant-list-item-action {
   flex: 0 0 auto;
@@ -99,7 +99,7 @@
   padding: 0 8px;
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   text-align: center;
 }
 .ant-list-item-action > li:first-child {
@@ -200,7 +200,7 @@
 }
 .ant-list-bordered {
   border: 1px solid #d9d9d9;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-list-bordered .ant-list-header {
   padding-right: 24px;

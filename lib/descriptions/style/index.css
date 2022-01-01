@@ -13,7 +13,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -25,7 +25,7 @@
 .ant-descriptions-view {
   width: 100%;
   overflow: hidden;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-descriptions-view table {
   width: 100%;
@@ -42,7 +42,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   text-align: start;
 }
 .ant-descriptions-item-label::after {
@@ -63,7 +63,7 @@
   flex: 1;
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   word-break: break-word;
   overflow-wrap: break-word;
 }

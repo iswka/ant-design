@@ -9,7 +9,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   position: relative;
@@ -77,7 +77,7 @@
   margin: 0;
 }
 .ant-avatar-square {
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-avatar > img {
   display: block;

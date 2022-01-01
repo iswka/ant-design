@@ -248,8 +248,8 @@ a.ant-typography.ant-typography-disabled:active,
 }
 div.ant-typography-edit-content {
   left: -12px;
-  margin-top: -5px;
-  margin-bottom: calc(1em - 4px - 1px);
+  margin-top: -6px;
+  margin-bottom: calc(1em - 5px - 1px);
 }
 .ant-typography-edit-content-confirm {
   position: absolute;

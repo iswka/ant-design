@@ -9,7 +9,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   display: flex;
@@ -385,14 +385,14 @@
   display: block;
   margin-bottom: 4px;
   margin-left: 0;
-  line-height: 1.5715;
+  line-height: 1.4286;
 }
 .ant-steps-label-vertical.ant-steps-small:not(.ant-steps-dot) .ant-steps-item-icon {
   margin-left: 46px;
 }
 .ant-steps-dot .ant-steps-item-title,
 .ant-steps-dot.ant-steps-small .ant-steps-item-title {
-  line-height: 1.5715;
+  line-height: 1.4286;
 }
 .ant-steps-dot .ant-steps-item-tail,
 .ant-steps-dot.ant-steps-small .ant-steps-item-tail {

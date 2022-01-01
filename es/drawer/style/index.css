@@ -146,7 +146,7 @@
   color: rgba(0, 0, 0, 0.85);
   background: #fff;
   border-bottom: 1px solid #f0f0f0;
-  border-radius: 2px 2px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .ant-drawer-header-title {
   display: flex;
@@ -169,7 +169,7 @@
   padding: 24px;
   overflow: auto;
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   word-wrap: break-word;
 }
 .ant-drawer-footer {

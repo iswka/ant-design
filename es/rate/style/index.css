@@ -5,15 +5,14 @@
 .ant-rate {
   box-sizing: border-box;
   color: rgba(0, 0, 0, 0.85);
-  font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   font-feature-settings: 'tnum';
   display: inline-block;
   margin: 0;
   padding: 0;
-  color: #fadb14;
-  font-size: 20px;
+  color: #ff8e04;
+  font-size: 14px;
   line-height: unset;
   list-style: none;
   outline: none;
@@ -31,7 +30,7 @@
   cursor: pointer;
 }
 .ant-rate-star:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 2px;
 }
 .ant-rate-star > div {
   transition: all 0.3s, outline 0s;
@@ -44,7 +43,7 @@
   outline: 0;
 }
 .ant-rate-star > div:focus-visible {
-  outline: 1px dashed #fadb14;
+  outline: 1px dashed #ff8e04;
 }
 .ant-rate-star-first,
 .ant-rate-star-second {

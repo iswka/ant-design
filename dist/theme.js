@@ -331,7 +331,7 @@ const compactThemeSingle = {
   "picker-panel-without-time-cell-height": "48px",
   "form-item-margin-bottom": "16px",
   "form-vertical-label-padding": "0 0 4px",
-  "rate-star-size": "16px",
+  "rate-star-size": "14px",
   "radio-size": "14px",
   "radio-wrapper-margin-right": "6px",
   "switch-height": "20px",

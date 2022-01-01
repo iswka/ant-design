@@ -39,7 +39,7 @@
   margin: 0;
   padding: 0;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   font-feature-settings: 'tnum';
   margin-bottom: 0;
   padding-left: 0;
@@ -82,11 +82,11 @@
   display: none;
 }
 .ant-menu-item-group-title {
-  height: 1.5715;
+  height: 1.4286;
   padding: 8px 16px;
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   transition: all 0.3s;
 }
 .ant-menu-horizontal .ant-menu-submenu {
@@ -258,7 +258,7 @@
   position: absolute;
   z-index: 1050;
   background: transparent;
-  border-radius: 2px;
+  border-radius: 4px;
   box-shadow: none;
   transform-origin: 0 0;
 }
@@ -280,7 +280,7 @@
 }
 .ant-menu-submenu > .ant-menu {
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-menu-submenu > .ant-menu-submenu-title::after {
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);

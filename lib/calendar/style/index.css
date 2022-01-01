@@ -9,7 +9,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   background: #fff;
@@ -46,14 +46,14 @@
   width: 100%;
 }
 .ant-picker-calendar-mini {
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-picker-calendar-mini .ant-picker-calendar-header {
   padding-right: 8px;
   padding-left: 8px;
 }
 .ant-picker-calendar-mini .ant-picker-panel {
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 4px 4px;
 }
 .ant-picker-calendar-mini .ant-picker-content {
   height: 256px;
@@ -121,7 +121,7 @@
   height: 86px;
   overflow-y: auto;
   color: rgba(0, 0, 0, 0.85);
-  line-height: 1.5715;
+  line-height: 1.4286;
   text-align: left;
 }
 .ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-today {

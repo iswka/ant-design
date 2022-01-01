@@ -9,12 +9,12 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   position: relative;
   background: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-card-rtl {
   direction: rtl;
@@ -39,7 +39,7 @@
   font-size: 16px;
   background: transparent;
   border-bottom: 1px solid #f0f0f0;
-  border-radius: 2px 2px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .ant-card-head::before {
   display: table;
@@ -140,7 +140,7 @@
   width: 100%;
 }
 .ant-card-cover img {
-  border-radius: 2px 2px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .ant-card-actions {
   margin: 0;
@@ -172,7 +172,7 @@
   display: block;
   min-width: 32px;
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   cursor: pointer;
 }
 .ant-card-actions > li > span:hover {
@@ -271,7 +271,7 @@
   margin: 4px 0;
   background: linear-gradient(90deg, rgba(207, 216, 220, 0.2), rgba(207, 216, 220, 0.4), rgba(207, 216, 220, 0.2));
   background-size: 600% 600%;
-  border-radius: 2px;
+  border-radius: 4px;
   -webkit-animation: card-loading 1.4s ease infinite;
           animation: card-loading 1.4s ease infinite;
 }

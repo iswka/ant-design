@@ -58,7 +58,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   position: relative;
@@ -74,7 +74,7 @@
   width: 180px;
   height: 200px;
   border: 1px solid #d9d9d9;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .ant-transfer-list-with-pagination {
   width: 250px;
@@ -88,11 +88,11 @@
   flex: none;
   align-items: center;
   height: 40px;
-  padding: 8px 12px 9px;
+  padding: 9px 12px 10px;
   color: rgba(0, 0, 0, 0.85);
   background: #fff;
   border-bottom: 1px solid #f0f0f0;
-  border-radius: 2px 2px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .ant-transfer-list-header > *:not(:last-child) {
   margin-right: 4px;

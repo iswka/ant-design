@@ -142,7 +142,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1px 4px;
+  padding: 1px 5px;
 }
 .ant-select-show-search.ant-select-multiple .ant-select-selector {
   cursor: text;
@@ -154,8 +154,8 @@
 .ant-select-multiple .ant-select-selector::after {
   display: inline-block;
   width: 0;
-  margin: 2px 0;
-  line-height: 24px;
+  margin: 3px 0;
+  line-height: 22px;
   content: '\a0';
 }
 .ant-select-multiple.ant-select-show-arrow .ant-select-selector,
@@ -168,21 +168,21 @@
   flex: none;
   box-sizing: border-box;
   max-width: 100%;
-  height: 24px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  line-height: 22px;
+  height: 22px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  line-height: 20px;
   background: #f5f5f5;
   border: 1px solid #f0f0f0;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: default;
   transition: font-size 0.3s, line-height 0.3s, height 0.3s;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-margin-end: 4px;
-          margin-inline-end: 4px;
+  -webkit-margin-end: 5px;
+          margin-inline-end: 5px;
   -webkit-padding-start: 8px;
           padding-inline-start: 8px;
   -webkit-padding-end: 4px;
@@ -242,16 +242,16 @@
 .ant-select-multiple .ant-select-selection-search {
   position: relative;
   max-width: 100%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  -webkit-margin-start: 7px;
-          margin-inline-start: 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  -webkit-margin-start: 6px;
+          margin-inline-start: 6px;
 }
 .ant-select-multiple .ant-select-selection-search-input,
 .ant-select-multiple .ant-select-selection-search-mirror {
-  height: 24px;
+  height: 22px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  line-height: 24px;
+  line-height: 22px;
   transition: all 0.3s;
 }
 .ant-select-multiple .ant-select-selection-search-input {
@@ -275,36 +275,36 @@
   transition: all 0.3s;
 }
 .ant-select-multiple.ant-select-lg .ant-select-selector::after {
-  line-height: 32px;
-}
-.ant-select-multiple.ant-select-lg .ant-select-selection-item {
-  height: 32px;
   line-height: 30px;
 }
+.ant-select-multiple.ant-select-lg .ant-select-selection-item {
+  height: 30px;
+  line-height: 28px;
+}
 .ant-select-multiple.ant-select-lg .ant-select-selection-search {
-  height: 32px;
-  line-height: 32px;
+  height: 30px;
+  line-height: 30px;
 }
 .ant-select-multiple.ant-select-lg .ant-select-selection-search-input,
 .ant-select-multiple.ant-select-lg .ant-select-selection-search-mirror {
-  height: 32px;
-  line-height: 30px;
+  height: 30px;
+  line-height: 28px;
 }
 .ant-select-multiple.ant-select-sm .ant-select-selector::after {
-  line-height: 16px;
-}
-.ant-select-multiple.ant-select-sm .ant-select-selection-item {
-  height: 16px;
   line-height: 14px;
 }
+.ant-select-multiple.ant-select-sm .ant-select-selection-item {
+  height: 14px;
+  line-height: 12px;
+}
 .ant-select-multiple.ant-select-sm .ant-select-selection-search {
-  height: 16px;
-  line-height: 16px;
+  height: 14px;
+  line-height: 14px;
 }
 .ant-select-multiple.ant-select-sm .ant-select-selection-search-input,
 .ant-select-multiple.ant-select-sm .ant-select-selection-search-mirror {
-  height: 16px;
-  line-height: 14px;
+  height: 14px;
+  line-height: 12px;
 }
 .ant-select-multiple.ant-select-sm .ant-select-selection-placeholder {
   left: 7px;
@@ -328,7 +328,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   position: relative;
@@ -339,7 +339,7 @@
   position: relative;
   background-color: #fff;
   border: 1px solid #d9d9d9;
-  border-radius: 2px;
+  border-radius: 4px;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-select:not(.ant-select-customize-input) .ant-select-selector input {
@@ -496,7 +496,7 @@
   padding: 0;
   color: rgba(0, 0, 0, 0.85);
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   position: absolute;
@@ -509,7 +509,7 @@
   font-size: 14px;
   font-variant: initial;
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
   outline: none;
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
 }
@@ -626,7 +626,7 @@
 }
 .ant-select-rtl.ant-select-multiple.ant-select-show-arrow .ant-select-selector,
 .ant-select-rtl.ant-select-multiple.ant-select-allow-clear .ant-select-selector {
-  padding-right: 4px;
+  padding-right: 5px;
   padding-left: 24px;
 }
 .ant-select-rtl.ant-select-multiple .ant-select-selection-item {

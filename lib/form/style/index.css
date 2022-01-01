@@ -97,7 +97,7 @@
 .ant-col-24.ant-form-item-label,
 .ant-col-xl-24.ant-form-item-label {
   padding: 0 0 8px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   white-space: initial;
   text-align: left;
 }
@@ -119,7 +119,7 @@
 @media (max-width: 575px) {
   .ant-form-item .ant-form-item-label {
     padding: 0 0 8px;
-    line-height: 1.5715;
+    line-height: 1.4286;
     white-space: initial;
     text-align: left;
   }
@@ -142,7 +142,7 @@
   }
   .ant-col-xs-24.ant-form-item-label {
     padding: 0 0 8px;
-    line-height: 1.5715;
+    line-height: 1.4286;
     white-space: initial;
     text-align: left;
   }
@@ -159,7 +159,7 @@
 @media (max-width: 767px) {
   .ant-col-sm-24.ant-form-item-label {
     padding: 0 0 8px;
-    line-height: 1.5715;
+    line-height: 1.4286;
     white-space: initial;
     text-align: left;
   }
@@ -176,7 +176,7 @@
 @media (max-width: 991px) {
   .ant-col-md-24.ant-form-item-label {
     padding: 0 0 8px;
-    line-height: 1.5715;
+    line-height: 1.4286;
     white-space: initial;
     text-align: left;
   }
@@ -193,7 +193,7 @@
 @media (max-width: 1199px) {
   .ant-col-lg-24.ant-form-item-label {
     padding: 0 0 8px;
-    line-height: 1.5715;
+    line-height: 1.4286;
     white-space: initial;
     text-align: left;
   }
@@ -210,7 +210,7 @@
 @media (max-width: 1599px) {
   .ant-col-xl-24.ant-form-item-label {
     padding: 0 0 8px;
-    line-height: 1.5715;
+    line-height: 1.4286;
     white-space: initial;
     text-align: left;
   }
@@ -520,7 +520,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
 }
@@ -568,7 +568,7 @@
   padding-top: 15px;
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
 }
 .ant-form .ant-form-text {
   display: inline-block;
@@ -593,7 +593,7 @@
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   font-variant: tabular-nums;
-  line-height: 1.5715;
+  line-height: 1.4286;
   list-style: none;
   font-feature-settings: 'tnum';
   margin-bottom: 24px;
@@ -692,7 +692,7 @@
   clear: both;
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
-  line-height: 1.5715;
+  line-height: 1.4286;
   transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .ant-form-item-explain-connected {
