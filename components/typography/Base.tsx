@@ -68,10 +68,11 @@ export interface BlockProps extends TypographyProps {
   strong?: boolean;
   keyboard?: boolean;
   italic?: boolean;
+  small?: boolean;
 }
 
 function wrapperDecorations(
-  { mark, code, underline, delete: del, strong, keyboard, italic }: BlockProps,
+  { mark, code, underline, delete: del, strong, keyboard, italic, small }: BlockProps,
   content: React.ReactNode,
 ) {
   let currentContent = content;
@@ -89,6 +90,7 @@ function wrapperDecorations(
   wrap(mark, 'mark');
   wrap(keyboard, 'kbd');
   wrap(italic, 'i');
+  wrap(small, 'small');
 
   return currentContent;
 }
@@ -474,6 +476,7 @@ class Base extends React.Component<InternalBlockProps, BaseState> {
       'strong',
       'keyboard',
       'italic',
+      'small',
       ...(configConsumerProps as any),
     ]) as any;
 
