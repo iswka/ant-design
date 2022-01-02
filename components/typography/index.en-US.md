@@ -29,6 +29,7 @@ Basic text writing, including headings, body text, lists, and more.
 | mark | Marked style | boolean | false |  |
 | onClick | Set the handler to handle click event | (event) => void | - |  |
 | strong | Bold style | boolean | false |  |
+| small | Small style | boolean | false |  |
 | italic | Italic style | boolean | false | 4.16.0 |
 | type | Content type | `secondary` \| `success` \| `warning` \| `danger` | - | success: 4.6.0 |
 | underline | Underlined style | boolean | false |  |
@@ -63,6 +64,7 @@ Basic text writing, including headings, body text, lists, and more.
 | mark | Marked style | boolean | false |  |
 | onClick | Set the handler to handle click event | (event) => void | - |  |
 | strong | Bold style | boolean | false |  |
+| small | Small style | boolean | false |  |
 | italic | Italic style | boolean | false | 4.16.0 |
 | type | Content type | `secondary` \| `success` \| `warning` \| `danger` | - | success: 4.6.0 |
 | underline | Underlined style | boolean | false |  |

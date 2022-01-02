@@ -33,6 +33,7 @@ ReactDOM.render(
     <Text delete>Ant Design (delete)</Text>
     <Text strong>Ant Design (strong)</Text>
     <Text italic>Ant Design (italic)</Text>
+    <Text small>Ant Design (small)</Text>
     <Link href="https://ant.design" target="_blank">
       Ant Design (Link)
     </Link>
