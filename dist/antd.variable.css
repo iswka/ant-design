@@ -168,7 +168,7 @@ strong {
   font-weight: bolder;
 }
 small {
-  font-size: 80%;
+  font-size: 85.71%;
 }
 sub,
 sup {
@@ -3195,7 +3195,7 @@ html {
   background: transparent;
 }
 .ant-avatar .ant-image-img {
-  display: block;
+  display: inline-block;
 }
 .ant-avatar-string {
   position: absolute;
@@ -7349,8 +7349,8 @@ a.ant-btn-icon-only > .anticon {
 }
 .ant-btn-round.ant-btn-sm {
   height: 24px;
-  padding: 1px 12px;
-  font-size: 14px;
+  padding: 2.4px 12px;
+  font-size: 12px;
   border-radius: 24px;
 }
 .ant-btn-round.ant-btn-icon-only {

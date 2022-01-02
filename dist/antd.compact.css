@@ -126,7 +126,7 @@ strong {
   font-weight: bolder;
 }
 small {
-  font-size: 80%;
+  font-size: 85.71%;
 }
 sub,
 sup {
@@ -2859,7 +2859,7 @@ html {
   background: transparent;
 }
 .ant-avatar .ant-image-img {
-  display: block;
+  display: inline-block;
 }
 .ant-avatar-string {
   position: absolute;

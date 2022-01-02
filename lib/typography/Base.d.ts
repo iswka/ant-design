@@ -43,6 +43,7 @@ export interface BlockProps extends TypographyProps {
     strong?: boolean;
     keyboard?: boolean;
     italic?: boolean;
+    small?: boolean;
 }
 interface InternalBlockProps extends BlockProps {
     component: string;

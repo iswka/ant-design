@@ -49,7 +49,8 @@ function wrapperDecorations(_ref, content) {
       del = _ref["delete"],
       strong = _ref.strong,
       keyboard = _ref.keyboard,
-      italic = _ref.italic;
+      italic = _ref.italic,
+      small = _ref.small;
   var currentContent = content;
 
   function wrap(needed, tag) {
@@ -64,6 +65,7 @@ function wrapperDecorations(_ref, content) {
   wrap(mark, 'mark');
   wrap(keyboard, 'kbd');
   wrap(italic, 'i');
+  wrap(small, 'small');
   return currentContent;
 }
 
@@ -466,7 +468,7 @@ var Base = /*#__PURE__*/function (_React$Component) {
           tooltip = _this$getEllipsis5.tooltip;
 
       var prefixCls = this.getPrefixCls();
-      var textProps = omit(restProps, ['prefixCls', 'editable', 'copyable', 'ellipsis', 'mark', 'code', 'delete', 'underline', 'strong', 'keyboard', 'italic'].concat(_toConsumableArray(configConsumerProps)));
+      var textProps = omit(restProps, ['prefixCls', 'editable', 'copyable', 'ellipsis', 'mark', 'code', 'delete', 'underline', 'strong', 'keyboard', 'italic', 'small'].concat(_toConsumableArray(configConsumerProps)));
       var cssEllipsis = this.canUseCSSEllipsis();
       var cssTextOverflow = rows === 1 && cssEllipsis;
       var cssLineClamp = rows && rows > 1 && cssEllipsis;

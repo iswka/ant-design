@@ -1258,8 +1258,8 @@ a.ant-btn-icon-only > .anticon {
 }
 .ant-btn-round.ant-btn-sm {
   height: 24px;
-  padding: 1px 12px;
-  font-size: 14px;
+  padding: 2.4px 12px;
+  font-size: 12px;
   border-radius: 24px;
 }
 .ant-btn-round.ant-btn-icon-only {

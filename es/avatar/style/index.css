@@ -29,7 +29,7 @@
   background: transparent;
 }
 .ant-avatar .ant-image-img {
-  display: block;
+  display: inline-block;
 }
 .ant-avatar-string {
   position: absolute;
